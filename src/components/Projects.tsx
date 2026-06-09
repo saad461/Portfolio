@@ -4,6 +4,16 @@ import Link from "next/link";
 const Projects = () => {
   const projects = [
     {
+      title: "MedPOS — Pharmacy Management SaaS",
+      description: "Cloud based Point of Sale and inventory management platform for Pakistani pharmacies. Features 3000+ DRAP medicine database, multi-tenant architecture with Row Level Security, automated expiry alerts, VAT compliant PDF invoice generation.",
+      tech: ["Next.js 14", "TypeScript", "Supabase", "Zustand", "TanStack Query", "Stripe", "Safepay", "shadcn/ui", "Zod", "Sentry"],
+      liveLink: null,
+      badge: "SaaS Product",
+      badgeColor: "bg-blue-500/20 text-blue-400 border-blue-500/30",
+      status: "Coming Soon",
+      isFeatured: true
+    },
+    {
       title: "AI Student Portal",
       description: "Full stack educational management system featuring complete admin panel, student dashboard, role based authentication and AI integration. Built for real educational use with production grade architecture.",
       tech: ["Next.js", "Supabase", "OpenAI API", "JavaScript", "Vercel"],
@@ -67,7 +77,9 @@ const Projects = () => {
           {projects.map((project, idx) => (
             <div
               key={idx}
-              className="reveal group relative p-8 rounded-3xl bg-slate-800 border border-slate-700 hover:border-transparent transition-all duration-300"
+              className={`reveal group relative p-8 rounded-3xl bg-slate-800 border border-slate-700 hover:border-transparent transition-all duration-300 ${
+                project.isFeatured ? "lg:col-span-2" : ""
+              }`}
             >
               {/* Gradient Border on Hover */}
               <div className="absolute inset-0 p-[1px] rounded-3xl bg-gradient-to-br from-primary to-secondary opacity-0 group-hover:opacity-100 transition-opacity -z-10">
