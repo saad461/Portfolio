@@ -38,7 +38,7 @@ const Skills = () => {
   ];
 
   return (
-    <section id="skills" className="py-24">
+    <section id="skills" className="py-16">
       <div className="container mx-auto px-6">
         <h2 className="text-3xl md:text-4xl font-bold mb-12 text-center reveal">
           Skills & <span className="text-secondary">Technologies</span>
