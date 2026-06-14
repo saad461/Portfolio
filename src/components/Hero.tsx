@@ -18,7 +18,7 @@ const Hero = () => {
             Building <span className="text-primary">Web Apps</span> & <br />
             <span className="text-secondary">AI Solutions</span>
           </h1>
-          <p className="text-lg md:text-xl text-slate-400 mb-10 max-w-2xl leading-relaxed">
+          <p className="text-lg md:text-xl text-slate-400 mb-8 max-w-2xl leading-relaxed">
             Full Stack Web Developer based in Pakistan — turning ideas into live production
             applications with Next.js and AI integration
           </p>
