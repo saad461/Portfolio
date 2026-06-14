@@ -14,7 +14,7 @@ const About = () => {
           </h2>
 
           <div className="text-slate-300 text-lg leading-relaxed mb-12 reveal">
-            <p className="mb-6">
+            <p className="mb-4">
               Self-driven web developer and IT graduate from
               Institute of Southern Punjab with hands-on
               experience building and deploying production-level
@@ -22,7 +22,7 @@ const About = () => {
               development and AI API integration using OpenAI
               and Claude APIs.
             </p>
-            <p className="mb-6">
+            <p className="mb-4">
               Built multiple live web tools
               including legal calculators, educational portals
               and AI-powered applications — all deployed on
