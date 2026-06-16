@@ -47,7 +47,7 @@ const Projects = () => {
       badgeColor: "bg-blue-500/20 text-blue-400 border-blue-500/30"
     },
     {
-      title: "Two Brothers Chicken Restaurant",
+      title: "Zabiha Chicken",
       description: "Full restaurant website built for a US based restaurant client over 5 months of collaboration. Features complete menu, locations and online presence management.",
       tech: ["PHP", "HTML", "CSS", "JavaScript"],
       liveLink: null,
@@ -97,7 +97,7 @@ const Projects = () => {
                 )}
               </div>
 
-              <p className="text-slate-400 mb-6 leading-relaxed">
+              <p className="text-slate-400 mb-4 leading-relaxed">
                 {project.description}
               </p>
 
